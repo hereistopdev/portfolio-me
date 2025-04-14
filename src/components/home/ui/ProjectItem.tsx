@@ -43,6 +43,7 @@ const ProjectItem = ({ project }: { project: IProjectItem }) => {
         </div>
 
         <Row classNames="w-full items-center justify-center mt-4 gap-2">
+          <></>
           {/* <Image src={""} alt="Preview" /> */}
           {/* {project.githubUrl ? (
             <Link

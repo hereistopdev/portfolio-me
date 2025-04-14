@@ -1,38 +1,38 @@
 class Strings {
   static telegram = "Telegram";
-  static telegramLink = "https://telegram.me/nixrajput";
-  static telegramUsername = "nixrajput";
+  static telegramLink = "https://t.me/hereistopdev0";
+  static telegramUsername = "hereistopdev0";
 
   static github = "GitHub";
-  static githubLink = "https://www.github.com/nixrajput";
-  static githubUsername = "nixrajput";
+  static githubLink = "https://www.github.com/hereistopdev";
+  static githubUsername = "hereistopdev";
 
   static linkedIn = "LinkedIn";
-  static linkedInLink = "https://www.linkedin.com/in/nixrajput";
-  static linkedInUsername = "nixrajput";
+  static linkedInLink = "https://www.linkedin.com/in/caleb-tillery-prog/";
+  static linkedInUsername = "Caleb Tillery";
 
   static instagram = "Instagram";
-  static instagramLink = "https://www.instagram.com/nixrajput";
-  static instagramUsername = "nixrajput";
+  static instagramLink = "https://www.instagram.com/calebtillery";
+  static instagramUsername = "calebtillery";
 
   static twitter = "Twitter";
-  static twitterLink = "https://www.twitter.com/nixrajput07";
-  static twitterUsername = "nixrajput07";
+  static twitterLink = "https://www.twitter.com/calebtillery07";
+  static twitterUsername = "calebtillery07";
 
   static email = "Email";
-  static primaryEmailLink = "mailto:nkr.nikhil.nkr@gmail.com";
-  static primaryEmail = "nkr.nikhil.nkr@gmail.com";
+  static primaryEmailLink = "mailto:hereis.topdev@gmail.com";
+  static primaryEmail = "hereis.topdev@gmail.com";
 
   static buyMeACoffee = "BuyMeACoffee";
-  static buyMeACoffeeLink = "https://buymeacoffee.com/nixrajput";
-  static buyMeACoffeeUsername = "nixrajput";
+  static buyMeACoffeeLink = "https://buymeacoffee.com/calebtillery";
+  static buyMeACoffeeUsername = "calebtillery";
 
   static koFi = "Ko-Fi";
-  static koFiLink = "https://ko-fi.com/nixrajput";
-  static koFiUsername = "nixrajput";
+  static koFiLink = "https://ko-fi.com/calebtillery";
+  static koFiUsername = "calebtillery";
 
-  static fullName = "Nikhil Rajput";
-  static shortName = "nixrajput";
+  static fullName = "Caleb Martin Tillery";
+  static shortName = "calebtillery";
 }
 
 export default Strings;

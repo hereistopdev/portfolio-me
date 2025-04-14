@@ -15,8 +15,7 @@ const SkillItem = ({ data }: { data: ISkillListItem }) => {
             return (
               <Column
                 key={`skill-item-${index}`}
-                classNames="items-center gap-1 text-[var(--textColor)]"
-              >
+                classNames="items-center gap-1 text-[var(--textColor)]">
                 {skill.icon ? (
                   <Image
                     src={skill.icon}

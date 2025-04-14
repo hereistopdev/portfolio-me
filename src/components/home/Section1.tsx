@@ -7,26 +7,34 @@ import Row from "@/components/core/Row";
 import { FlipWords } from "@/components/common/FlipWords";
 import socialLinks from "@/data/socialLinks";
 import TalkButton from "./ui/TalkButton";
+import Image from "next/image";
+import avatar from "@/../public/images/avatar.jpg";
 
 const HomeSection1 = ({ id }: Readonly<{ id: string }>) => {
   return (
     <ResponsiveBox
       classNames="dark:bg-[var(--bgColor)] bg-[var(--bgColor)] dark:bg-grid-white/[0.1] bg-grid-white/[0.1] min-h-screen items-center justify-center relative overflow-hidden rounded-md"
-      id={id}
-    >
+      id={id}>
       <ConstrainedBox classNames="px-4 py-8 pt-16 z-20 items-center justify-center">
         <Column classNames="w-full items-center justify-center">
+          <Image
+            src={avatar}
+            alt="avatar"
+            width={300}
+            height={300}
+            style={{ borderRadius: "100%", border: "5px solid white" }}
+          />
           <div className="inline-flex items-center">
             <p className="text-2xl/normal sm:text-3xl/normal md:text-5xl/normal lg:text-6xl/normal xl:text-7xl/normal dark:text-[var(--textColor)] text-[var(--textColor)] font-bold text-center">
               Hi there, I am
             </p>
             <FlipWords
-              words={["Nikhil Rajput.", "@nixrajput."]}
+              words={["Caleb Martin Tillery.", "@hereistopdev."]}
               className="text-2xl/normal sm:text-3xl/normal md:text-5xl/normal lg:text-6xl/normal xl:text-7xl/normal dark:text-[var(--primaryColor)] text-[var(--primaryColor)] font-bold text-center"
             />
           </div>
           <p className="text-sm/normal md:text-base/normal dark:text-[var(--textColorLight)] text-[var(--textColorLight)]">
-            Full Stack Developer 💻 SDE 🛠️ Open Source 🌍
+            Senior Software Engineer 💻 10+ years exp 🌍 Gilmer, TX
           </p>
 
           <div className="gap-4 mt-12 lg:mt-16 flex flex-col md:flex-row">
@@ -45,8 +53,7 @@ const HomeSection1 = ({ id }: Readonly<{ id: string }>) => {
                   href={link.url}
                   target="_blank"
                   className="app__outlined_btn !rounded-full !p-2 lg:!p-3 !aspect-square !border-[var(--textColor)]"
-                  aria-label={`${link.name}`}
-                >
+                  aria-label={`${link.name}`}>
                   <span className="text-base/6 text-[var(--whiteColor)]">
                     {typeof link.icon === "string" ? null : (
                       <FontAwesomeIcon icon={link.icon} />

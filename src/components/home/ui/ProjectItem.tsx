@@ -36,41 +36,39 @@ const ProjectItem = ({ project }: { project: IProjectItem }) => {
             project.repoType === RepoType.Private
               ? "text-[var(--errorColor)] border-[var(--errorColor50)]"
               : "text-[var(--successColor)] border-[var(--successColor50)]"
-          }`}
-        >
+          }`}>
           <p className="text-xs/6 font-semibold">
             {project.repoType === RepoType.Private ? "Private" : "Public"}
           </p>
         </div>
 
         <Row classNames="w-full items-center justify-center mt-4 gap-2">
-          {project.githubUrl ? (
+          {/* <Image src={""} alt="Preview" /> */}
+          {/* {project.githubUrl ? (
             <Link
               href={project.githubUrl}
               aria-label={`${project.title} GitHub URL`}
               target="_blank"
-              className="app__outlined_btn !rounded-full !p-2 lg:!p-3 !aspect-square !border-[var(--textColor)]"
-            >
+              className="app__outlined_btn !rounded-full !p-2 lg:!p-3 !aspect-square !border-[var(--textColor)]">
               <FontAwesomeIcon
                 icon={faGithub}
                 className="text-base/6 text-[var(--textColor)]"
               />
             </Link>
-          ) : null}
+          ) : null} */}
 
-          {project.url ? (
+          {/* {project.url ? (
             <Link
               href={project.url}
               aria-label={`${project.title} Project URL`}
               target="_blank"
-              className="app__outlined_btn !rounded-full !p-2 lg:!p-3 !aspect-square !border-[var(--textColor)]"
-            >
+              className="app__outlined_btn !rounded-full !p-2 lg:!p-3 !aspect-square !border-[var(--textColor)]">
               <FontAwesomeIcon
                 icon={faEye}
                 className="text-base/6 text-[var(--textColor)]"
               />
             </Link>
-          ) : null}
+          ) : null} */}
         </Row>
       </Column>
 
@@ -85,8 +83,7 @@ const ProjectItem = ({ project }: { project: IProjectItem }) => {
               return (
                 <p
                   key={`tag-${i}`}
-                  className="rounded-[var(--borderRadius)] border border-[var(--textColor50)] py-[.125rem] px-2 mr-2 mb-2 text-xs/6 font-normal"
-                >
+                  className="rounded-[var(--borderRadius)] border border-[var(--textColor50)] py-[.125rem] px-2 mr-2 mb-2 text-xs/6 font-normal">
                   {tag}
                 </p>
               );

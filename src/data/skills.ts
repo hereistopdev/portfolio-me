@@ -119,11 +119,11 @@ const skills: ISkillListItem[] = [
       //   level: SkillLevel.Expert,
       //   icon: "/skills/redux.svg",
       // },
-      {
-        title: "D3.js",
-        level: SkillLevel.Expert,
-        icon: "/skills/D3.svg",
-      },
+      // {
+      //   title: "D3.js",
+      //   level: SkillLevel.Expert,
+      //   icon: "/skills/D3.svg",
+      // },
       // {
       //   title: "Shadcn UI",
       //   level: SkillLevel.Expert,
@@ -204,11 +204,11 @@ const skills: ISkillListItem[] = [
         level: SkillLevel.Expert,
         icon: "/skills/getx.png",
       },
-      {
-        title: "ReactNative",
-        level: SkillLevel.Expert,
-        icon: "/skills/React.svg",
-      },
+      // {
+      //   title: "ReactNative",
+      //   level: SkillLevel.Expert,
+      //   icon: "/skills/React.svg",
+      // },
       {
         title: "Java",
         level: SkillLevel.Expert,
@@ -244,11 +244,11 @@ const skills: ISkillListItem[] = [
         level: SkillLevel.Beginner,
         icon: "/skills/Redis.png",
       },
-      {
-        title: "DynamoDB",
-        level: SkillLevel.Beginner,
-        icon: "/skills/DynamoDB.svg",
-      },
+      // {
+      //   title: "DynamoDB",
+      //   level: SkillLevel.Beginner,
+      //   icon: "/skills/DynamoDB.svg",
+      // },
       // {
       //   title: "AWS RDS",
       //   level: SkillLevel.Beginner,
@@ -274,11 +274,11 @@ const skills: ISkillListItem[] = [
         level: SkillLevel.Expert,
         icon: "/skills/Apache.svg",
       },
-      {
-        title: "GCP",
-        level: SkillLevel.Expert,
-        icon: "/skills/Gcp.png",
-      },
+      // {
+      //   title: "GCP",
+      //   level: SkillLevel.Expert,
+      //   icon: "/skills/Gcp.png",
+      // },
       {
         title: "GitHub",
         level: SkillLevel.Expert,
@@ -325,12 +325,11 @@ const skills: ISkillListItem[] = [
   {
     title: "AI & ML",
     items: [
-      //PyTorch, TensorFlow, Prophet, XGBoost, LightGBM, BERT, GPT, Multi-Armed Bandits
-      {
-        title: "PyTorch",
-        level: SkillLevel.Intermediate,
-        icon: "/skills/PyTorch.png",
-      },
+      // {
+      //   title: "PyTorch",
+      //   level: SkillLevel.Intermediate,
+      //   icon: "/skills/PyTorch.png",
+      // },
       {
         title: "TensorFlow",
         level: SkillLevel.Intermediate,

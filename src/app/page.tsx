@@ -1,3 +1,4 @@
+import HomeSection7 from "@/components/home/Section7";
 import dynamic from "next/dynamic";
 
 const PageBox = dynamic(() => import("@/components/core/PageBox"));
@@ -17,6 +18,7 @@ const Home = () => {
       <HomeSection4 id="skills" />
       <HomeSection5 id="projects" />
       <HomeSection6 id="contact" />
+      <HomeSection7 id="payment" />
     </PageBox>
   );
 };

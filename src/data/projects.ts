@@ -2,10 +2,10 @@ import { IProjectItem, ProjectType, RepoType } from "@/types";
 
 const projects: IProjectItem[] = [
   {
-    id: "social-media-app-flutter",
-    title: "Social Media App",
+    id: "Crypto-Betting-Site",
+    title: "Crypto-Betting-Site",
     description:
-      "A social media mobile application developed using Flutter, GetX, Firebase Notifications and Hive.",
+      "Developed and deployed a suite of 20+ engaging minigames, significantly expanding the platform’s gaming portfolio and user engagement.",
     icon: "/skills/flutter.svg",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
